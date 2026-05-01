@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -15,12 +16,9 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#e6cd00]'>Kutlo</span>
+            Hi, I'm <span className='text-[#e6cd00]'></span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Frontend Developer and i develop, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
+         
         </div>
       </div>
 
@@ -48,3 +46,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
